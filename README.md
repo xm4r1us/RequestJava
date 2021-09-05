@@ -45,3 +45,8 @@ Basic Java Function About Requests
 		return inputLine;
     }
 ```
+#Usage (GET)
+```java
+request("get","https://httpbin.org/post", new String[] {"User-Agent:Sa","deneme:deneme"} ,"");
+```
+
