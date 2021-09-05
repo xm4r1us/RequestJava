@@ -1,7 +1,7 @@
 # RequestJava
 Basic Java Function About Requests
 # No Need Installation
-```
+```java
 //Only put this script on your code
     	public static String request(String types, String link, String[] headers ,String postdata) throws Exception {
     	String inputLine = "";
@@ -49,4 +49,7 @@ Basic Java Function About Requests
 ```java
 request("get","https://httpbin.org/post", new String[] {"User-Agent:Sa","deneme:deneme"} ,"");
 ```
-
+#Usage (POST)
+```java
+request("post","https://httpbin.org/post", new String[] {"User-Agent:Sa","deneme:deneme"} ,"koko=koko");
+```
